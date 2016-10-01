@@ -9,13 +9,14 @@ public class SwitchCase {
         // switch only byte, short, int, long, enum or String
         //case - only compile time constant
 
+        final int y = 0;
         final int x = 3;
         switch ((short) d){
             case 2:
                 System.out.println(2);
                 //x can be used here only because x is final
                 // all case values must be of type short
-            case (short) (x + 2):
+            case (short) (x + 2 + y):
                 System.out.println(x+2);
             case 1:
                 System.out.println(1);
