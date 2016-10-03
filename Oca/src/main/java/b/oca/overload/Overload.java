@@ -11,7 +11,7 @@ public class Overload {
 
     //adding an exception throw does not overload > compile error as already defined
     //this would also execute
-    public static void main(String... args) throws Throwable{
-        System.out.println("main");
-    }
+//    public static void main(String... args) throws Throwable{
+//        System.out.println("main");
+//    }
 }
